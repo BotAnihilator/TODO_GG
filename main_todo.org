@@ -1,1 +1,40 @@
+* README.org
+Hacer un readme.org para leer cada vez que regrese de vacaciones incluyendo la
+organización de los archivos de esta computadora y otras.
+* Financiero
+** Banco
+- Entrar y revisar cuanto tengo y cuanto me falta para 10kUSD
+- Buscar deudas de magania
+- deudas de raul
+- calcular gastos del viaje
+** Vector
+- Mirar
+* Funda de celular
+conseguir la dirección completa para hacer el encargo
+* Comparación
+- sacar la gráfica de dirección de emision para marton 
+* Evaluación
+escribir lo de la evalación de frank
+** Punto 1: Review of the past reference period
+During this period I familiarized myself with the code Synrad3D developed at
+CLASSE by David Sagan. This code is used to simulate the emission of synchrotron
+radiation and tracks its photons inside the accelerators vacuum chamber through
+all reflections until absorption.
+I attended MePAS in 2015 and also  attended JUAS in 2016
+I used Synrad3D to analyze the behavior of synchrotron radiation in the arcs of
+LHC and draw a 3D map of the absorption points in a realistic model (including
+the sawtooth pattern on the external side of the wall) 
+Afterwards I made a similar map for ATS optics baseline for HL-LHC and compared
+the way radiation behaves between the FlatHS and Round versions of the optics. I
+attended IPAC'16 and gave an oral presentation on the results of this simulations.
+I made a model to match the geometry of a proposed vacuum chamber for FCC-hh to
+work as a first approximation. This model was used to show the efficiency of the
+size of the slits in said chamber at baseline energy. I also ran several
+simulations at different energies to see at which point it is convenient to use
+the slits. The results from this will be particularly helpful for deciding what
+is the best option for HE-LHC vacuum chamber.   
+** Punto 2: Review of the next reference period
+On the following months I will be working on simulations for HE-LHC project
+And finally I will sort the results to get them published in a journal.
+** Punto 3: Publicaciones
 * TODO [#A] set APS format to org-eport
