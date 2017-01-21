@@ -15,7 +15,7 @@ conseguir la dirección completa para hacer el encargo
 - sacar la gráfica de dirección de emision para marton 
 * Evaluación
 escribir lo de la evalación de frank
-** Punto 1: Review of the past reference period
+** 1: Review of the past reference period
 During this period I familiarized myself with the code Synrad3D developed at
 CLASSE by David Sagan. This code is used to simulate the emission of synchrotron
 radiation and tracks its photons inside the accelerators vacuum chamber through
@@ -33,8 +33,14 @@ size of the slits in said chamber at baseline energy. I also ran several
 simulations at different energies to see at which point it is convenient to use
 the slits. The results from this will be particularly helpful for deciding what
 is the best option for HE-LHC vacuum chamber.   
-** Punto 2: Review of the next reference period
-On the following months I will be working on simulations for HE-LHC project
+** 2: Review of the next reference period
+On the following months I will be working on simulations for HE-LHC and FCC-hh projects.
+We will compare the results of the simulations in Synrad3D with results from
+Synrad+ (developed at CERN by R. Kersevan) and also I will compare our LHC 
+simulations to actual measurements done on the vacuum chamber.
+The results from this comparisons will be presented at IPAC'17.
 And finally I will sort the results to get them published in a journal.
-** Punto 3: Publicaciones
+
+** 3: Publications 
+https://weblib.cern.ch/record/2159686/files/CERN-ACC-2016-0079.pdf
 * TODO [#A] set APS format to org-eport
