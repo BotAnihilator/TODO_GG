@@ -3,15 +3,12 @@ Hacer un readme.org para leer cada vez que regrese de vacaciones incluyendo la
 organización de los archivos de esta computadora y otras.
 * Financiero
 ** Banco
-- Entrar y revisar cuanto tengo y cuanto me falta para 10kUSD
-- Buscar deudas de magania
-- deudas de raul
 - calcular gastos del viaje
 ** Vector
 - Mirar
-* Funda de celular
-conseguir la dirección completa para hacer el encargo
-* Comparación
+- Cmx.CPO
+* [#A] DRAFT! 
+* DONE Comparación
 - sacar la gráfica de dirección de emision para marton 
 * Evaluación
 escribir lo de la evalación de frank
@@ -34,7 +31,8 @@ simulations at different energies to see at which point it is convenient to use
 the slits. The results from this will be particularly helpful for deciding what
 is the best option for HE-LHC vacuum chamber.   
 ** 2: Review of the next reference period
-On the following months I will be working on simulations for HE-LHC and FCC-hh projects.
+On the following months I will be working on simulations for HE-LHC and FCC-hh
+projects. This results should be submitted for consideration for FCC Week 2017. 
 We will compare the results of the simulations in Synrad3D with results from
 Synrad+ (developed at CERN by R. Kersevan) and also I will compare our LHC 
 simulations to actual measurements done on the vacuum chamber.
@@ -44,3 +42,17 @@ And finally I will sort the results to get them published in a journal.
 ** 3: Publications 
 https://weblib.cern.ch/record/2159686/files/CERN-ACC-2016-0079.pdf
 * TODO [#A] set APS format to org-eport
+* Bicicleta
+hacer el request en el EDH
+* Leer lo de gonzalo
+- impreso y encarpoetado
+* inicar el paper
+* Ver que onda con cemex
+* Hablar a vector
+que me reactiben la cuenta
+* BMAD
+revisar un poco del código para en un futuro meterse al código del synrad3d
+* efectos de soldadura
+en donde se acaba cada tubo del beam pipe, cómo está la junta?
+en caso de ser soldada, puede tener rebabas que hagan que la luz se absorba
+justo ahi o algo asi
