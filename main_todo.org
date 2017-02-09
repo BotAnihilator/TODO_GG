@@ -1,6 +1,24 @@
 * README.org
-Hacer un readme.org para leer cada vez que regrese de vacaciones incluyendo la
-organización de los archivos de esta computadora y otras.
+** PoE
+*** item filter
+**** TODO Cosas por añadir
+- requerir que lso anillosno raros de topaz solo se muestren si su resistencia
+  es superior al 28%
+**** Archivo
+*** Characters-Items
+**** zz_ maps
+**** zz_ chromatics
+**** zz_ dinero
+**** dinero2
+**** carlos salinas
+**** _ geminis _
+** CLASSE
+*** Organization
+** Synrad+
+*** ready
+Comparison between Synrad3D and  Synrad+ was made in beampipe shape with a
+sticky surface, 0 emmitance, 0 Energy spread. name of simulation is bench4.dat 
+*** On going
 * Financiero
 ** Banco
 - calcular gastos del viaje
@@ -8,9 +26,10 @@ organización de los archivos de esta computadora y otras.
 - Mirar
 - Cmx.CPO
 * [#A] DRAFT! 
-* DONE Comparación
-- sacar la gráfica de dirección de emision para marton 
-* Evaluación
+** Introduction
+** The tool
+** The map
+* DONE Evaluación
 escribir lo de la evalación de frank
 ** 1: Review of the past reference period
 During this period I familiarized myself with the code Synrad3D developed at
@@ -43,9 +62,14 @@ And finally I will sort the results to get them published in a journal.
 https://weblib.cern.ch/record/2159686/files/CERN-ACC-2016-0079.pdf
 * TODO [#A] set APS format to org-eport
 * Bicicleta
-hacer el request en el EDH
+** Requested
+Dear Gerardo,
+A ticket has been created concerning your issue.
+
+Ticket No: RQF0707116
+Short description: Bicycle rental request, Guillermo Canton Gerardo
 * Leer lo de gonzalo
-- impreso y encarpoetado
+- impreso y encarpetado
 * inicar el paper
 * Ver que onda con cemex
 * Hablar a vector
@@ -56,3 +80,4 @@ revisar un poco del código para en un futuro meterse al código del synrad3d
 en donde se acaba cada tubo del beam pipe, cómo está la junta?
 en caso de ser soldada, puede tener rebabas que hagan que la luz se absorba
 justo ahi o algo asi
+* Limpiar la computadora de CLASSE
