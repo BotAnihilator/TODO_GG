@@ -1,3 +1,4 @@
+#+OPTIONS: 
 * README.org
 ** PoE
 *** item filter
@@ -14,29 +15,35 @@
 **** _ geminis _
 ** CLASSE
 *** Organization
+home>work
+**** Wall
+- june_lhc.wall :: La más reciente de los arcos del LHC, incluye BPMs (no se is es
+             para el HL creo que si, es decir, dos celdas.)
+- he_lhc.wall :: para el HE, el tamaño del tubo es menor. incluyendo BPMs
+- mar_abs.wall :: para el HL y es totalmente absorbente, no incluye bpms
+- mar.wall :: para el HLLHC, tiene sawtooth pero no bpms
+- FCC-hh.wall :: fcc con apertura de 3 mm
+- FCC-5mm.wall :: fcc con apertura de 5mm
+- bench1 :: copia del he_lhc.wall pero sin bpms
 ** Synrad+
 *** ready
 Comparison between Synrad3D and  Synrad+ was made in beampipe shape with a
 sticky surface, 0 emmitance, 0 Energy spread. name of simulation is bench4.dat 
 *** On going
-* IDPs
-* [0%] script.sh
-** TODO Cambiar nombre
+* IDPs [0%]
+** TODO Introduccion
+** TODO Instalar el FLEE
+** TODO Buscar Journals
+* [#A] [0%] Processor 
+** [0%] script.sh
+*** TODO Cambiar nombre
 ponerle un nombre más descriptivo
-** TODO Comentar lo que hace 
-** TODO reparar funciones
-** TODO poner bien la funcion histograma
-* Financiero
-** Banco
-- [ ]Pedir 65K RHGG
-  con posibilidad a extras 10kCHF (210kMXN)
-** Vector
-*** Contraseña
-la actual es 10
-*** Mercado de Capitales
-**** Cemex.CPO
-**** QQQ
-ya es hora de vender
+*** TODO Comentar lo que hace 
+*** TODO reparar funciones
+*** TODO poner bien la funcion histograma
+** [0%] hist.gnu
+*** TODO Definir los rangos a graficar
+*** TODO Cambiar el main y eliminar los confusores
 * [#A] DRAFT! 
 ** Introduction
 # Aqui pongo el gap del knoledge y la relevancia de ese gap
@@ -64,6 +71,38 @@ are presented here as well.
 ** The tool
 
 ** The map
+* TODO [#A] set APS format to org-eport
+* BMAD
+revisar un poco del código para en un futuro meterse al código del synrad3d
+* efectos de soldadura
+en donde se acaba cada tubo del beam pipe, cómo está la junta?
+en caso de ser soldada, puede tener rebabas que hagan que la luz se absorba
+justo ahi o algo asi
+* Synrad3D
+** TODO revisar las bases de BMad
+** TODO entrar al Synrad3d.F90
+* [100%]Calcular las E_c
+la fórmula es muy básica:
+$$ E_c=\frac{3e\hbar}{2m_p}B\gamma² $$
+o de otra forma:
+\begin{eqnarray}
+E_c=\frac{3\hbar c}{2}\frac{\gamma³}{\rho B}
+\end{eqnarray}
+** DONE LHC 
+$\gamma_1= 7462 @ 7TeV$
+** DONE HL-LHC
+same as LHC
+** DONE HE-LHC
+$\gamma_2=\frac{13}{7} \gamma_1=13859.3 @13TeV$
+
+** DONE FCC-hh
+$\gamma_3=\frac{50}{7} \gamma_1=53304.9 @50TeV$
+* DONE Limpiar la computadora de CLASSE
+* DONE Leer lo de gonzalo
+- [ ]Imprimir
+- [ ]Encarpetar
+- [ ]Leer (marcando)
+- [ ]Comentarios
 * DONE Evaluación
 escribir lo de la evalación de frank
 ** 1: Review of the past reference period
@@ -95,27 +134,3 @@ And finally I will sort the results to get them published in a journal.
 
 ** 3: Publications 
 https://weblib.cern.ch/record/2159686/files/CERN-ACC-2016-0079.pdf
-* TODO [#A] set APS format to org-eport
-* Bicicleta
-** Requested
-Dear Gerardo,
-A ticket has been created concerning your issue.
-
-Ticket No: RQF0707116
-Short description: Bicycle rental request, Guillermo Canton Gerardo
-* Leer lo de gonzalo
-- [ ]Imprimir
-- [ ]Encarpetar
-- [ ]Leer (marcando)
-- [ ]Comentarios
-* Ver que onda con cemex
-* BMAD
-revisar un poco del código para en un futuro meterse al código del synrad3d
-* efectos de soldadura
-en donde se acaba cada tubo del beam pipe, cómo está la junta?
-en caso de ser soldada, puede tener rebabas que hagan que la luz se absorba
-justo ahi o algo asi
-* Limpiar la computadora de CLASSE
-* Synrad3D
-** TODO revisar las bases de BMad
-** TODO entrar al Synrad3d.F90
