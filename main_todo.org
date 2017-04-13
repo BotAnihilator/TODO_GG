@@ -1,4 +1,29 @@
 #+OPTIONS: 
+* IPAC'17
+** Simualtions [0/2]
+*** TODO photon init files
+*** TODO correrlas
+** writing [0/2]
+*** TODO experimntal part
+*** TODO Discussion
+** figures[0/1]
+*** TODO comparison
+ya tengo el material de ady es solo hacer la gŕafica
+* Notas
+** Para los abuelos
+*** ventajas de venir al inicio
+- Me pueden traer cosas
+- puedo estar en el apartamento /ahi tengo mostaza y catsup xD
+
+*** al finally
+- se pueden llevar cosas
+- 
+*** traer
+gotas para los ojos
+* FCC Week
+** Hostal
+Pregunytar como se llama el hostal en el que estuvimos
+** ¿que se presentará?
 * README.org
 ** PoE
 *** item filter
