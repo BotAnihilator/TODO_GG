@@ -1,26 +1,38 @@
-#+OPTIONS: 
-* IPAC'17
-** Simualtions [0/2]
-*** TODO photon init files
-*** TODO correrlas
+* Emacs 
+** personal data
+- buscar en emacs-cofig.org "<link rel='stylesheet'
+  href='http://gperaza.github.io/org.css' />") y hacer que lo tome del
+  personal.el
+- lo mismo en  href=\"http://gperaza.github.org\">%a</a> / <span
+** libxml2
+Antes de instalar el emacs es importante instalar (no se cual de las dos, alguna
+lo solucionó) libxml2 y libxml2-dev
+* <2017-11-09 Thu>
+** boletos
+** articulo
+** segundo artículo
+* DONE IPAC'17
+** Simualations [1/2]
+*** DONE Pphoton in./it files[2/2]
+- [X] corriendo para 36-100 eV cada 10\mu a 1 grado
+- [X] Corriendo para 2 gfrados
+*** TODO correrlas [2/3]
+- [X] auqi hay un problema con las photon input files.
+- [X] correr una
+- [ ] correr todsa
 ** writing [0/2]
 *** TODO experimntal part
 *** TODO Discussion
-** figures[0/1]
-*** TODO comparison
-ya tengo el material de ady es solo hacer la gŕafica
-* Notas
-** Para los abuelos
-*** ventajas de venir al inicio
-- Me pueden traer cosas
-- puedo estar en el apartamento /ahi tengo mostaza y catsup xD
-
-*** al finally
-- se pueden llevar cosas
-- 
-*** traer
-gotas para los ojos
-* FCC Week
+*** correcting the references
+** figures[0/2]
+*** TODO comparison[3/4]
+- [X] sacar la gŕafica
+- [ ] ponerles titulos y toda la onda
+- [X] trim the plot to 130 m
+- [X] put sticky over sawtooth per code
+-
+*** TODO reflectivity for given energies
+* DONE FCC Week
 ** Hostal
 Pregunytar como se llama el hostal en el que estuvimos
 ** ¿que se presentará?
@@ -46,30 +58,32 @@ home>work
              para el HL creo que si, es decir, dos celdas.)
 - he_lhc.wall :: para el HE, el tamaño del tubo es menor. incluyendo BPMs
 - mar_abs.wall :: para el HL y es totalmente absorbente, no incluye bpms
-- mar.wall :: para el HLLHC, tiene sawtooth pero no bpms
+- mar.wall :: parmao no bpms
 - FCC-hh.wall :: fcc con apertura de 3 mm
 - FCC-5mm.wall :: fcc con apertura de 5mm
 - bench1 :: copia del he_lhc.wall pero sin bpms
+**** lat
+
 ** Synrad+
 *** ready
 Comparison between Synrad3D and  Synrad+ was made in beampipe shape with a
-sticky surface, 0 emmitance, 0 Energy spread. name of simulation is bench4.dat 
+sticky surface, 0 emmitance, 0 Energy spread. name of simulation is bench4.dat
 *** On going
 * IDPs [0%]
 ** TODO Introduccion
 ** TODO Instalar el FLEE
 ** TODO Buscar Journals
-* [#A] [0%] Processor 
+* [#A] [0%] Processor
 ** [0%] script.sh
 *** TODO Cambiar nombre
 ponerle un nombre más descriptivo
-*** TODO Comentar lo que hace 
+*** TODO Comentar lo que hace
 *** TODO reparar funciones
 *** TODO poner bien la funcion histograma
 ** [0%] hist.gnu
 *** TODO Definir los rangos a graficar
 *** TODO Cambiar el main y eliminar los confusores
-* [#A] DRAFT! 
+* [#A] DRAFT!
 ** Introduction
 # Aqui pongo el gap del knoledge y la relevancia de ese gap
 Synchrotron Radiation (SR) in proton storage rings was normally disregarded in
@@ -83,26 +97,30 @@ The power of SR produced per meter at top energy is something known and well
 stablished [\ref 3] What we propose in this letter is a precise map of the
 photon absorption in the arcs of the LHC. This map is made using the tool
 Synrad3D \ref{4}, and later on compared with experimental data to validate the
-simulations. 
+simulations.
 
 This maps could be useful for electron cloud simulations, which instead of using
 an homogeneous superficial density of seeds, they could use our proposed
 distribution.
 
 Similar simulations were also run for HL-LHC, HE-LHC, and FCC-hh and the results
-are presented here as well. 
+are presented here as well.
 
 
 ** The tool
 
 ** The map
-* TODO [#A] set APS format to org-eport
+* DONE [#A] set APS format to org-eport
 * BMAD
 revisar un poco del código para en un futuro meterse al código del synrad3d
 * efectos de soldadura
 en donde se acaba cada tubo del beam pipe, cómo está la junta?
 en caso de ser soldada, puede tener rebabas que hagan que la luz se absorba
-justo ahi o algo asi
+justo ahi o algo asi.
+
+** Respuesta
+No hay soldadura, se usan "RF-Fingers".
+Ahora debo buscar el diseño mecánico de estas ondas
 * Synrad3D
 ** TODO revisar las bases de BMad
 ** TODO entrar al Synrad3d.F90
@@ -113,7 +131,7 @@ o de otra forma:
 \begin{eqnarray}
 E_c=\frac{3\hbar c}{2}\frac{\gamma³}{\rho B}
 \end{eqnarray}
-** DONE LHC 
+** DONE LHC
 $\gamma_1= 7462 @ 7TeV$
 ** DONE HL-LHC
 same as LHC
@@ -138,7 +156,7 @@ all reflections until absorption.
 I attended MePAS in 2015 and also  attended JUAS in 2016
 I used Synrad3D to analyze the behavior of synchrotron radiation in the arcs of
 LHC and draw a 3D map of the absorption points in a realistic model (including
-the sawtooth pattern on the external side of the wall) 
+the sawtooth pattern on the external side of the wall)
 Afterwards I made a similar map for ATS optics baseline for HL-LHC and compared
 the way radiation behaves between the FlatHS and Round versions of the optics. I
 attended IPAC'16 and gave an oral presentation on the results of this simulations.
@@ -147,15 +165,68 @@ work as a first approximation. This model was used to show the efficiency of the
 size of the slits in said chamber at baseline energy. I also ran several
 simulations at different energies to see at which point it is convenient to use
 the slits. The results from this will be particularly helpful for deciding what
-is the best option for HE-LHC vacuum chamber.   
+is the best option for HE-LHC vacuum chamber.
 ** 2: Review of the next reference period
 On the following months I will be working on simulations for HE-LHC and FCC-hh
-projects. This results should be submitted for consideration for FCC Week 2017. 
+projects. This results should be submitted for consideration for FCC Week 2017.
 We will compare the results of the simulations in Synrad3D with results from
-Synrad+ (developed at CERN by R. Kersevan) and also I will compare our LHC 
+Synrad+ (developed at CERN by R. Kersevan) and also I will compare our LHC
 simulations to actual measurements done on the vacuum chamber.
 The results from this comparisons will be presented at IPAC'17.
 And finally I will sort the results to get them published in a journal.
 
-** 3: Publications 
+** 3: Publications
 https://weblib.cern.ch/record/2159686/files/CERN-ACC-2016-0079.pdf
+
+* junta con humberto
+ya tiene la distribución CDF (cumulative dist funct) esta atorado viendo que
+e-cloud la lea. Por otro lado el se reunirá hoy con giovanni para que le diga
+como funciona la nueva versión. hoy debe salir la version de producción. y
+empezará esta semana las simulaciones.
+
+/begin{eqnarray}
+x
+/end{eqnarray}
+* Cosas que hacer con doña ex-suegra
+:PROPERTIES:
+:startup: overview
+:EXPORT_FILE_NAME: CQH
+:EXPORT_TITLE:       Cosas que hacer con doña ex-suegra
+:EXPORT_AUTHOR:      Gerardo
+:EXPORT_DATE:        Dic 2017 - Ene 2018
+:EXPORT_OPTIONS: toc:nil 
+:END:
+
+- [ ] Ver matrix
+  - [ ] 1
+  - [ ] 2
+  - [ ] 3
+- [ ] Ver Concierto 90 (Las partes en las que sale Fey)
+- [ ] Terminar el Exorcismo de Emily Rose
+- [ ] Ver el Primer episodio de Full House
+* Ideas extras
+- [ ] 
+
+
+* Authors
+:PROPERTIES:
+:startup: overview
+:EXPORT_FILE_NAME: CQH
+:EXPORT_TITLE:       email
+:EXPORT_AUTHOR:      BotAnihilator
+:EXPORT_DATE:       \today
+:EXPORT_OPTIONS: toc:nil num:nil
+:END:
+
+Hello Roberto,
+
+I am sorry I haven't write in a long time, I have been busy on some other
+project with Frank.
+
+Abstract submission deadline is closing in (Dec 2),
+could you please send me the the full list of authors helping on the
+experimental side? If they are not all registered in JaCOW, could you please
+ask them to do so?
+
+Thank you, 
+Gerardo
