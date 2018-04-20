@@ -17,11 +17,8 @@ elegir cuales del ipac17
 *** TODO Simulaciones
 **** TODO las actualizaciones del código para el generador de fotones
 **** TODO Graficar
-* FCC-WEEK 18
 ** TODO pared
 le pedí a ignasi los vértices para terminar la cámara.
-* <2018-01-18 Thu>
-** boletos de avion
 * TODO Emacs 
 ** journal entries etc
 hay una opcion para insertar desde cualquier buffer una entrada a un archivo
@@ -49,17 +46,21 @@ Aqui pondré cosas extras
 *** remake desde cero
 seguir esto: https://github.com/bitlbee/bitlbee-facebook
 ** xwidgets
+esta es para que podamos ver youtube en un buffer
+#+BEGIN_SCR BASH
 sudo apt-get install libgtk-3-dev libwebkitgtk-3.0-dev
 ./configure --with-cairo --with-xwidgets --with-x-toolkit=gtk3
-
-* TODO README.org
-** PoE
-*** item filter
+#+end_scr
+** ox-koma-letter.el
+ya modifiqué en el mio pero despues de la ṕultima modificacion ya nucna chambeó.
+* README.org
+** DONE PoE
+*** DONE item filter
 **** TODO Cosas por añadir
 - requerir que lso anillosno raros de topaz solo se muestren si su resistencia
   es superior al 28%
 **** Archivo
-*** Characters-Items
+*** DONE Characters-Items
 **** zz_ maps
 **** zz_ chromatics
 **** zz_ dinero
@@ -80,28 +81,21 @@ home>work
 - bench1 :: copia del he_lhc.wall pero sin bpms
 **** lat
 
-** Synrad+
-*** ready
-Comparison between Synrad3D and  Synrad+ was made in beampipe shape with a
-sticky surface, 0 emmitance, 0 Energy spread. name of simulation is bench4.dat
-*** On going
 * IDPs [0%]
 ** TODO Introduccion
 ** TODO Instalar el FLEE
 ** TODO Buscar Journals
 * [#A] [0%] Processor
-** [0%] script.sh
+** [25%] script.sh
 *** TODO Cambiar nombre
 ponerle un nombre más descriptivo
 *** TODO Comentar lo que hace
 *** TODO reparar funciones
-*** TODO poner bien la funcion histograma
+*** DONE poner bien la funcion histograma
 ** [0%] hist.gnu
 *** TODO Definir los rangos a graficar
 *** TODO Cambiar el main y eliminar los confusores
-* BMAD
-revisar un poco del código para en un futuro meterse al código del synrad3d
-* efectos de soldadura
+* DONE efectos de soldadura
 en donde se acaba cada tubo del beam pipe, cómo está la junta?
 en caso de ser soldada, puede tener rebabas que hagan que la luz se absorba
 justo ahi o algo asi.
@@ -109,9 +103,10 @@ justo ahi o algo asi.
 ** Respuesta
 No hay soldadura, se usan "RF-Fingers".
 Ahora debo buscar el diseño mecánico de estas ondas
-* Synrad3D
+* Synrad3D[33%]
 ** TODO revisar las bases de BMad
 ** DONE entrar al Synrad3d.F90
+** TODO Leer esl Synrad3d.f90
 * [100%]Calcular las E_c
 la fórmula es muy básica:
 $$ E_c=\frac{3e\hbar}{2m_p}B\gamma² $$
@@ -128,7 +123,7 @@ $\gamma_2=\frac{13}{7} \gamma_1=13859.3 @13TeV$
 
 ** DONE FCC-hh
 $\gamma_3=\frac{50}{7} \gamma_1=53304.9 @50TeV$
-* Cosas que hacer con doña ex-suegra
+* [0%] Cosas que hacer con doña ex-suegra
 :PROPERTIES:
 :startup: overview
 :EXPORT_FILE_NAME: CQH
@@ -137,7 +132,7 @@ $\gamma_3=\frac{50}{7} \gamma_1=53304.9 @50TeV$
 :EXPORT_DATE:        Dic 2017 - Ene 2018
 :EXPORT_OPTIONS: toc:nil 
 :END:
-** Con doña ex-suegra
+** Con doña ex-suegra [25%]
 - [ ] Ver matrix
   - [ ] 1
   - [ ] 2
@@ -145,20 +140,20 @@ $\gamma_3=\frac{50}{7} \gamma_1=53304.9 @50TeV$
 - [ ] Ver Concierto 90 (Las partes en las que sale Fey)
 - [ ] Terminar el Exorcismo de Emily Rose
 - [X] Ver el Primer episodio de Full House
-** Con ex-cuñado
+** Con ex-cuñado[33%]
 - [X] Ir a un juego de los naranjeros
 - [ ] Ver matrix
   - [ ] 1
   - [ ] 2
   - [ ] 3
 - [ ] Terminar el Exorcismo de Emily Rose
-** Con ex-suegro
+** Con ex-suegro[100%]
 - [X] Asar carne
-** Con Tania
+** Con Tania[0%]
 - [ ] Comer Tacos
 - [ ] Cine
 
-* PyE
+* DONE PyE
 :PROPERTIES:
 :startup: overview
 :EXPORT_FILE_NAME: CQH
@@ -184,7 +179,7 @@ $\gamma_3=\frac{50}{7} \gamma_1=53304.9 @50TeV$
 *** Test2
 **** TODO [#Humberto] Checar el script de matlab y el etiquetado correcto de las gráficas.
 **** TODO [#Humberto] poner escala logarítmica en el eje vertical.
-* Cita con guillermo
+* DONE Cita con guillermo
 ** Calendario de publicaciones:
 hacerlo
 ** DONE Formato PAF
